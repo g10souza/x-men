@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-Men - Semana do Zero ao Programador Contratado</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ciclope, também conhecido como Scott Summers, é um personagem famoso do universo dos quadrinhos da Marvel. Ele é um mutante e um dos líderes dos X-Men. Ciclope possui um poderoso raio óptico que emana de seus olhos, sendo capaz de causar destruição massiva. No entanto, devido à natureza perigosa de seus poderes, ele usa um visor especial para controlá-los. Scott é retratado como um líder determinado, disciplinado e leal, com um forte senso de responsabilidade.">
+                    <img src="./src/imagens/imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é uma personagem icônica do universo dos quadrinhos da Marvel. Também conhecida como Fênix, Jean é uma mutante poderosa que possui habilidades telepáticas e telecinéticas. Ela é mais conhecida por ser um dos membros fundadores dos X-Men. Jean é retratada como uma mulher corajosa, compassiva e determinada, com um enorme potencial psíquico.">
+                    <img src="src/imagens/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Ela é uma mutante com a habilidade de se tornar intangível, permitindo que atravesse objetos sólidos e evite ataques físicos. Kitty Pryde é uma das personagens mais jovens e queridas dos X-Men. Ela é retratada como uma jovem inteligente, corajosa e determinada, com um senso de humor afiado. Kitty é conhecida por sua capacidade de se adaptar rapidamente a diferentes situações e por sua habilidade de hacker. ">
+                    <img src="src/imagens/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Ela é uma mutante com a habilidade de controlar o clima, manipulando ventos, tempestades, relâmpagos e outros fenômenos meteorológicos. Tempestade é retratada como uma mulher forte, confiante e sábia, com uma conexão profunda com a natureza. Ela nasceu no Quênia e passou parte de sua infância vivendo como uma ladra em Cairo, no Egito, antes de se juntar aos X-Men. Tempestade é conhecida por sua liderança habilidosa e por suas habilidades de combate tanto físico quanto usando seus poderes elementais.">
+                    <img src="src/imagens/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="Vampira" data-name="Vampira" data-description="Ela possui a habilidade de absorver a energia vital, memórias e poderes de outras pessoas através do toque, deixando-as temporariamente enfraquecidas ou inconscientes. No entanto, essa habilidade é uma maldição para ela, pois impede que tenha um contato físico próximo com outras pessoas sem prejudicá-las. Vampira é retratada como uma mulher atormentada e solitária devido ao seu poder mutante.">
+                    <img src="src/imagens/imagens/card-vampira.jpg" alt="Personagem Vampira">
+                </li>
+                <li class="personagem" id="Wolverine" data-name="Wolverine" data-description="Ele é um mutante com habilidades regenerativas avançadas, sentidos aguçados e garras retráteis de adamantium, um metal indestrutível, que surgem de suas mãos. Wolverine é conhecido por sua natureza feroz, durabilidade incrível e habilidades de combate excepcionais. Ele é um sobrevivente solitário, com um passado misterioso e marcado por experiências traumáticas. Wolverine é retratado como um anti-herói, muitas vezes mostrando uma personalidade ríspida e um temperamento explosivo, mas também exibindo uma lealdade profunda e um senso de justiça.">
+                    <img src="src/imagens/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Ele é um mutante com características distintas, incluindo uma aparência azul, uma cauda preênsil, olhos amarelos e orelhas pontiagudas. Noturno possui a habilidade de se teletransportar instantaneamente para qualquer lugar que possa ver ou se lembrar com precisão. Além disso, ele é ágil, possui reflexos sobre-humanos e é um mestre na arte marcial chamada Bamf. Noturno é conhecido por sua personalidade amigável, bem-humorada e religiosa.">
+                    <img src="src/imagens/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Ele é um mutante poderoso com a capacidade de manipular campos magnéticos e controlar metais. Magneto é retratado como um sobrevivente do Holocausto e acredita que os mutantes são superiores aos humanos e devem governar o mundo. Ele é conhecido por sua personalidade determinada, carismática e implacável em sua busca pela supremacia mutante. Embora suas ações sejam frequentemente vistas como vilanescas, Magneto é um personagem com motivações complexas e uma história de luta contra a opressão e a discriminação dos mutantes.">
+                    <img src="src/imagens/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="src/imagens/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
